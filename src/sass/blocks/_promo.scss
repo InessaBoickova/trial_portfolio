@@ -4,5 +4,35 @@
     background: url('../img/main_bg.jpg') no-repeat 50%/cover;
     padding-top: 206px;
 
+    &__title {
+        width: 535px;
+        margin-top: 10px;
+    }
+    &__subtitle{
+        padding-left: 10px;
+        z-index: 2;
+        position: relative;
+        @include before_circle;
+    }
+    &__btns {
+        display: flex;
+        margin-top: 25px;
+        width: 250px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__link {
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+        font-weight: bold;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: none;
+            color: #000000;
+        }
+    }
 
 }
