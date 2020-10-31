@@ -105,6 +105,13 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        &-blue{
+            &:hover {
+                svg path {
+                    fill: #fff;
+                }
+            }
+        }
     }
     &__overlay{
         position: fixed;
