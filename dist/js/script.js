@@ -9,3 +9,9 @@ close.addEventListener('click',() =>{
     menu.classList.remove('active');
 });
 
+const interest = document.querySelectorAll('.skills__ratings-interest'),
+      lines = document.querySelectorAll('.skills__ratings-line span');
+
+interest.forEach((item,i) => {
+    lines[i].style.width = item.innerHTML;
+})
