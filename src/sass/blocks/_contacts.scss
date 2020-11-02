@@ -32,6 +32,14 @@
     &__text,
     &__social {
         margin-top: 20px;
+        a {
+            text-decoration: none;
+            &:hover{
+                svg path {
+                    fill: $main-color;
+                }
+            }
+        }
     }
 
     &__link {
